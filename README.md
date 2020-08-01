@@ -5,7 +5,7 @@ Home: https://github.com/manrajgrover/halo
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Beautiful terminal spinners in Python
 
