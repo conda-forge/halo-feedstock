@@ -1,5 +1,5 @@
 {% set name = "halo" %}
-{% set version = "0.0.29" %}
+{% set version = "0.0.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a8aeb0164e269d7c96fb7444b2a4caaa09b8989fa0c85e6a26e8b2c6d1af3b9d
+  sha256: ad1fb4d7e29fe846d323bf4a8bf9e65fddcb24c10258c13e964cab13278f9568
 
 build:
   noarch: python
@@ -20,7 +20,6 @@ requirements:
     - python >=3.5
   run:
     - colorama >=0.3.9
-    - cursor >=1.2.0
     - log_symbols >=0.0.14
     - python >=3.5
     - six >=1.12.0
