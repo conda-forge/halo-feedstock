@@ -1,5 +1,5 @@
 {% set name = "halo" %}
-{% set version = "0.0.30" %}
+{% set version = "0.0.31" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ad1fb4d7e29fe846d323bf4a8bf9e65fddcb24c10258c13e964cab13278f9568
+  sha256: 7b67a3521ee91d53b7152d4ee3452811e1d2a6321975137762eb3d70063cc9d6
 
 build:
   noarch: python
