@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - colorama >=0.3.9
     - log_symbols >=0.0.14
